@@ -76,6 +76,26 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
         </plugins>
+
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <artifactId>maven-release-plugin</artifactId>
+                    <executions>
+                        <execution>
+                            <goals>
+                                <goal>perform</goal>
+                            </goals>
+                            <configuration>
+                                <arguments>
+                                    <skipTests>true</skipTests>
+                                </arguments>
+                            </configuration>
+                        </execution>
+                    </executions>
+                </plugin>
+            </plugins>
+        </pluginManagement>
     </build>
 
 </project>
