@@ -84,7 +84,7 @@
                     <executions>
                         <execution>
                             <goals>
-                                <goal>perform</goal>
+                                <goal>prepare</goal>
                             </goals>
                             <configuration>
                                 <arguments>
