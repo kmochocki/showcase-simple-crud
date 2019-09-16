@@ -14,6 +14,19 @@
     <name>simple-crud</name>
     <description>Example of simple crud</description>
 
+    <distributionManagement>
+        <repository>
+            <id>nexus-releases</id>
+            <url>http://localhost:8089/nexus/content/repositories/releases</url>
+        </repository>
+    </distributionManagement>
+
+    <scm>
+        <connection>scm:git:git@github.com:kmochocki/showcase-simple-crud.git</connection>
+        <url>scm:git:git@github.com:kmochocki/showcase-simple-crud.git</url>
+        <developerConnection>scm:git:git@github.com:kmochocki/showcase-simple-crud.git</developerConnection>
+    </scm>
+
     <properties>
         <java.version>1.8</java.version>
         <junitversion>5.1.0</junitversion>
