@@ -9,7 +9,7 @@
     </parent>
     <groupId>com.kmochocki.showcase</groupId>
     <artifactId>simple-crud</artifactId>
-    <version>0.0.6</version>
+    <version>0.0.7-SNAPSHOT</version>
     <name>simple-crud</name>
     <description>Example of simple crud</description>
 
@@ -24,7 +24,7 @@
         <connection>scm:git:git@github.com:kmochocki/showcase-simple-crud.git</connection>
         <url>scm:git:git@github.com:kmochocki/showcase-simple-crud.git</url>
         <developerConnection>scm:git:git@github.com:kmochocki/showcase-simple-crud.git</developerConnection>
-      <tag>simple-crud-0.0.6</tag>
+      <tag>HEAD</tag>
   </scm>
 
     <properties>
