@@ -81,14 +81,19 @@
             <plugins>
                 <plugin>
                     <artifactId>maven-release-plugin</artifactId>
-                    <goals>
-                        <goal>perform</goal>
-                    </goals>
-                    <configuration>
-                        <arguments>
-                            -DskipTests=true
-                        </arguments>
-                    </configuration>
+                    <executions>
+                        <execution>
+                            <id>perform-without-tests</id>
+                            <goals>
+                                <goal>perform</goal>
+                            </goals>
+                            <configuration>
+                                <arguments>
+                                    -DskipTests=true
+                                </arguments>
+                            </configuration>
+                        </execution>
+                    </executions>
                 </plugin>
             </plugins>
         </pluginManagement>
