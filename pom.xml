@@ -10,7 +10,7 @@
 
     <groupId>com.kmochocki.showcase</groupId>
     <artifactId>showcase-parent</artifactId>
-    <version>0.0.14-SNAPSHOT</version>
+    <version>0.0.14</version>
     <name>showcase-parent</name>
     <packaging>pom</packaging>
 
@@ -29,7 +29,7 @@
         <connection>scm:git:git@github.com:kmochocki/showcase-simple-crud.git</connection>
         <url>scm:git:git@github.com:kmochocki/showcase-simple-crud.git</url>
         <developerConnection>scm:git:git@github.com:kmochocki/showcase-simple-crud.git</developerConnection>
-        <tag>@{project.version}</tag>
+        <tag>0.0.14</tag>
     </scm>
 
     <modules>
