@@ -10,7 +10,7 @@
 
     <groupId>com.kmochocki.showcase</groupId>
     <artifactId>showcase-parent</artifactId>
-    <version>0.0.13</version>
+    <version>0.0.13-SNAPSHOT</version>
     <name>showcase-parent</name>
     <packaging>pom</packaging>
 
