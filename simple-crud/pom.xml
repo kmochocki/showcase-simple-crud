@@ -5,7 +5,7 @@
     <parent>
         <artifactId>showcase-parent</artifactId>
         <groupId>com.kmochocki.showcase</groupId>
-        <version>0.0.17-SNAPSHOT</version>
+        <version>0.0.17</version>
     </parent>
 
     <artifactId>simple-crud</artifactId>
